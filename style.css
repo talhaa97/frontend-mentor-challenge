@@ -1,0 +1,77 @@
+body {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  background-color: #e3e3e3;
+  font-size:16px;
+}
+
+.main-container {
+  margin: 12%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+li{
+  margin-bottom:3px
+}
+
+.top-part {
+  padding-top: 4%;
+  padding-left: 5%;
+  padding-bottom: 4%;
+  padding-right: 4%;
+  background-color: white;
+}
+.bottom-part {
+  display: flex;
+}
+.bottom-right {
+  flex: 50%;
+  background-color: #06d2c5;
+  color: #eff3fa;
+}
+.bottom-left {
+  color: #eff3fa;
+  flex: 50%;
+  background-color: #05b5a9;
+}
+span {
+  position:relative;
+  top:-3px;
+  font-size: 0.8rem;
+  color: white;
+  opacity:0.6;
+  margin-left:3px;
+  
+}
+.bottom-right,
+.bottom-left {
+  padding:5%;
+}
+
+.top-part > h2 {
+  color: #06d3c5;
+}
+.top-part > h4 {
+  color: #1bd306;
+}
+.top-part > p {
+  color: #c6c6c6;
+}
+button {
+  padding: 5%;
+  width: 100%;
+  color: white;
+  background-color: #4ee45f;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
